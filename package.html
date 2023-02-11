@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>book</title>
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<section class="header">
+
+   <a href="home.php" class="logo">Art.</a>
+
+   <nav class="navbar">
+      <a href="home.html">home</a>
+      <a href="about.html">sell</a>
+      <a href="book.html">buy</a>
+     
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+<style>
+   body {
+     font-family: Arial;
+     font-size: 17px;
+     padding: 8px;
+   }
+   
+   * {
+     box-sizing: border-box;
+   }
+   
+   .row {
+     display: -ms-flexbox; /* IE10 */
+     display: flex;
+     -ms-flex-wrap: wrap; /* IE10 */
+     flex-wrap: wrap;
+     margin: 0 -16px;
+   }
+   
+   .col-25 {
+     -ms-flex: 25%; /* IE10 */
+     flex: 25%;
+   }
+   
+   .col-50 {
+     -ms-flex: 50%; /* IE10 */
+     flex: 50%;
+   }
+   
+   .col-75 {
+     -ms-flex: 75%; /* IE10 */
+     flex: 75%;
+   }
+   
+   .col-25,
+   .col-50,
+   .col-75 {
+     padding: 0 16px;
+   }
+   
+   .container {
+     background-color: #f2f2f2;
+     padding: 5px 20px 15px 20px;
+     border: 1px solid lightgrey;
+     border-radius: 3px;
+   }
+   
+   input[type=text] {
+     width: 100%;
+     margin-bottom: 20px;
+     padding: 12px;
+     border: 1px solid #ccc;
+     border-radius: 3px;
+   }
+   
+   label {
+     margin-bottom: 10px;
+     display: block;
+   }
+   
+   .icon-container {
+     margin-bottom: 20px;
+     padding: 7px 0;
+     font-size: 24px;
+   }
+   
+   .btn {
+     background-color: #04AA6D;
+     color: white;
+     padding: 12px;
+     margin: 10px 0;
+     border: none;
+     width: 100%;
+     border-radius: 3px;
+     cursor: pointer;
+     font-size: 17px;
+   }
+   
+   .btn:hover {
+     background-color: #000000;
+   }
+   
+   a {
+     color: #2196F3;
+   }
+   
+   hr {
+     border: 1px solid lightgrey;
+   }
+   
+   span.price {
+     float: right;
+     color: grey;
+   }
+   
+   
+   @media (max-width: 800px) {
+     .row {
+       flex-direction: column-reverse;
+     }
+     .col-25 {
+       margin-bottom: 20px;
+     }
+   }</style>
+
+<!-- header section ends -->
+
+
+<!-- booking section starts  -->
+
+<section class="booking">
+
+   <h1 class="heading-title">Explore your Art medium!</h1>
+
+   <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+</style>
+</head>
+<body>
+   <video width="320" height="240" controls>
+      <source src="Paint Buckets.mp4" type="video/mp4">
+      <source src="Paint Buckets.mp4" type="video/ogg">
+     
+    </video>
+
+
+
+    </div>
+  </div>
+ 
+     
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+</section>
+
+<!-- booking section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3>quick links</h3>
+         <a href="home.php"> <i class="fas fa-angle-right"></i> home</a>
+         <a href="about.php"> <i class="fas fa-angle-right"></i> about</a>
+         <a href="package.php"> <i class="fas fa-angle-right"></i> package</a>
+         <a href="book.php"> <i class="fas fa-angle-right"></i> book</a>
+      </div>
+
+      <div class="box">
+         <h3>extra links</h3>
+         <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> about us</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> privacy policy</a>
+         <a href="#"> <i class="fas fa-angle-right"></i> terms of use</a>
+      </div>
+
+      <div class="box">
+         <h3>contact info</h3>
+         <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+         <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+         <a href="#"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
+         <a href="#"> <i class="fas fa-map"></i> mumbai, india - 400104 </a>
+      </div>
+
+      <div class="box">
+         <h3>follow us</h3>
+         <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+         <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+         <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+         <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+      </div>
+
+   </div>
+
+   <div class="credit"> created by <span>mr. web designer</span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
